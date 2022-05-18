@@ -1,0 +1,66 @@
+#logotipo{
+    width:100px;    
+    right:50px;
+}
+
+#title{
+position: absolute;
+width: 316px;
+height: 69px;
+
+font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #000000;
+margin-top: 18px;
+}
+
+.header{
+ background:#D7B5FF;    
+}
+
+.nav-item{
+   margin-top: 18px; 
+
+
+font-family: 'Kotta One';
+font-style: normal;
+font-weight: 400; /*espessura da fonte:*/
+font-size: 24px;
+line-height: 50px; /*altura da linha*/
+color: #000000;
+}
+
+.nav-item a:hover{ /*deixar a borda flutuante*/
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px; /*raio da borda:*/
+    border: 1px solid #7b2596;
+    outline: none; /*contorno: nenhum;*/
+    text-decoration:none; /*decoração de texto: nenhuma;*/
+    color: #a588e9;
+}
+#footer{
+    background:#D7B5FF;  
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-body{
+    background: #c491ff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card{
+    padding-right:10px;
+}
