@@ -38,8 +38,8 @@ color: #000000;
     font-size: 20px;
     padding: 0px;
     border-radius: 4px; /*raio da borda:*/
-    border-top: 1px solid #7b2596;
-    border-bottom: 1px solid #7b2596;
+    border-top: 1px solid #7b2596; /*Borda em cima */
+    border-bottom: 1px solid #7b2596; /*borda em baixo*/
     outline: none; /*contorno: nenhum;*/
     text-decoration:none; /*decoração de texto: nenhuma;*/
     color: #a588e9;
@@ -65,3 +65,13 @@ color: #000000;
 .card{
     padding-right:10px;
 }
+
+/*.main-nav li a:hover{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #154372;
+    outline: none;
+    text-decoration:none;
+    color: #154372;
+}*/
