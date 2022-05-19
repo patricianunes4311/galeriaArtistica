@@ -10,16 +10,20 @@ height: 69px;
 
 font-family: 'Fauna One';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;/*espessura da fonte*/
 font-size: 40px;
-line-height: 49px;
+line-height: 49px; /*altura da linha*/
 text-align: center;
-color: #000000;
+color: #ffffff;
 margin-top: 18px;
+
 }
 
 .header{
- background:#D7B5FF;    
+ background:#D7B5FF;   
+ position: fixed;
+ right:0px;    
+ left:0px;
 }
 
 .nav-item{
@@ -45,26 +49,74 @@ color: #000000;
     color: #a588e9;
 }
 #footer{
-    background:#D7B5FF;  
+    background:#D7B5FF;
     text-align: center;
 }
 
 .card-title{
     text-align: center;
+    color: #7b2596;
 }
 
 .card-text{
     text-align: center;
+    color:rgb(75, 29, 77);
+    font-family: 'Smooch', cursive;
 }
 
 .card-body{
-    background: #c491ff;
+    background: #cba1fd;
     font-family: 'Roboto Slab', serif;
+    
 }
 
-.card{
-    padding-right:10px;
+#frida{
+    color:rgb(75, 29, 77);
+    background-color: #c491ff;
+    margin-top: 100px;
 }
+#pablo{
+    color:rgb(75, 29, 77);
+    background-color: #c491ff;    
+    text-align: center;
+    margin-top:4px;
+}
+
+#salvador{
+    color:rgb(75, 29, 77);
+    background-color: #c491ff;    
+    text-align: center;
+    margin-top:4px;
+}
+
+.card2{
+    top:400px;
+    margin-bottom:20;
+}
+
+#escrita{
+    font-family: 'Fauna One';
+    font-size:20px;    
+    background-color: #ffffff;   
+    color:#000000;
+}
+
+#h3{
+    font-family: 'Fauna One';
+    background-color: #8630e9; 
+    color: #000;
+}
+.figure-caption{
+    color:#000;
+    margin:10px;
+}
+
+.carousel-item{
+ 
+    margin-top: 400px;
+}
+
+
 
 /*.main-nav li a:hover{
     font-size: 20px;
