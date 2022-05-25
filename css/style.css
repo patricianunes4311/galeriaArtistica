@@ -53,52 +53,30 @@ color: #000000;
     text-align: center;
 }
 
-.card-title{
-    text-align: center;
-    color: #7b2596;
-}
-
-.card-text{
-    text-align: center;
-    color:rgb(75, 29, 77);
-    font-family: 'Smooch', cursive;
-}
-
-.card-body{
-    background: #cba1fd;
-    font-family: 'Roboto Slab', serif;
-    
-}
-
-#frida{
+#vangogh{
     color:rgb(75, 29, 77);
     background-color: #c491ff;
     margin-top: 100px;
 }
-#pablo{
+#Tarsila{
     color:rgb(75, 29, 77);
     background-color: #c491ff;    
     text-align: center;
     margin-top:4px;
 }
 
-#salvador{
+#leonardo{
     color:rgb(75, 29, 77);
     background-color: #c491ff;    
     text-align: center;
     margin-top:4px;
 }
 
-.card2{
-    top:400px;
-    margin-bottom:20;
-}
-
-#escrita{
-    font-family: 'Fauna One';
-    font-size:20px;    
-    background-color: #ffffff;   
-    color:#000000;
+#VikMuniz {
+    color:rgb(75, 29, 77);
+    background-color: #c491ff;    
+    text-align: center;
+    margin-top:4px;
 }
 
 #h3{
@@ -106,17 +84,32 @@ color: #000000;
     background-color: #8630e9; 
     color: #000;
 }
-.figure-caption{
-    color:#000;
-    margin:10px;
+
+.row form{
+    margin-top: 70px;
 }
 
-.carousel-item{
- 
-    margin-top: 400px;
+#nameAutor-error{
+    display: none;
 }
 
+#obra-error{
+    display: none;
+}
+#descricao-error{
+    display:none;
+}
+#urlImagem-error{
+    display:none;
+}
 
+#button{
+color: #8630e9;
+margin:auto;
+display:block;
+width:500px;
+border-color:purple;  
+}
 
 /*.main-nav li a:hover{
     font-size: 20px;
