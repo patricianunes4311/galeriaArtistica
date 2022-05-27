@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
         href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <title>Galeria Artística</title>
 </head>
 
@@ -20,42 +23,56 @@
 
     <div class="container-fluid">
         <div class="row header">
-            <div class="col-1">
-                <img id="logotipo" src="./images/Galeria Artística (1).png">
-            </div>
-            <div class="col-3">
-                <h1 id="title">Galeria Artística</h1>
-            </div>
-            <ul class="nav justify-content-end col-7">
-                <!--conteúdo-fim-->
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="formulario.html">Formulário</a>
-                </li>
-            </ul>
+            <nav class="navbar fixed-top">
+                <div class="container-fluid">
+                    <img id="logotipo" src="./images/Galeria Artística (1).png">
+                    <a id="title" class="navbar-brand">Galeria Artística</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Galeria Artística</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="formulario.html">Formulário</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <!--Fechamento header-->
-        <div class="row">
-            <h1 id="vangogh" class="text-center">Obra artística de  Vicente Van Gogh</h1>         
-           
-        </div>
-        <div class="row">      
-            <h1 id="leonardo" class="text-center">Obra artística de Leonardo da Vince </h1>    
-        </div>
-        <div class="row">
-            <h1 id="Tarsila"> Obras de Tarsila do Amaral </h1>
-            <h3 id="h3" class="text-center">Quem foi Tarsila do Amaral?</h3>            
-        </div>
-        <div class="row">
-            <h1 id="VikMuniz" class="text-center">Obra artística de Vik Muniz</h1>  
-        </div>
+    </div>
+    <!--Fechamento header-->
+    <div class="row">
+        <h1 id="vangogh" class="text-center">Obra artística de Vicente Van Gogh</h1>
+    </div> <!--fechamento van gogh-->
+    <div class="row">
+        <h1 id="leonardo" class="text-center">Obra artística de Leonardo da Vince </h1>
+    </div> <!--fechamento leonardo-->
+    <div class="row">
+        <h1 id="Tarsila"> Obras de Tarsila do Amaral </h1>        
+    </div> <!--fechamento tarsila-->
+    <div class="row">
+        <h1 id="VikMuniz" class="text-center">Obra artística de Vik Muniz</h1>
+    </div> <!--fechamento vick muniz-->
     </div>
 
 
 
-    <footer id="footer"><b>Desenvolvido por Patrícia Nunes</b></br>
+    <footer id="footer"class="fixarRodape"><b>Desenvolvido por Patrícia Nunes</b></br>
         <img src="./images/licenciamento.png">
     </footer>
 

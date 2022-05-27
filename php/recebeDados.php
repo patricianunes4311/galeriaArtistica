@@ -3,16 +3,16 @@
 echo 'Script para receber e armazenar dados';
 
 $nameAutor = $_GET ['nameAutor'];
-$titulo = $_GET['obra']
-$descricao = $_GET ['descricao'];
-$urlImage = $_GET ['urlImage'];
+$titulo = $_GET['obra'];
+$descricao = $_GET ['descricao']; //erro 
+$urlImagem = $_GET ['urlImagem'];
 
 //conectar com o banco de dados 
 $hostname = 'localhost'; //variável e seus valores 
 $user = 'root';
-$password = 'No8La9De3';
+$password = '';
 $database = 'galeriaartistica';
-$conn = mysqli_connect($hostname,$user,$password,$database ); 
+$conn = mysqli_connect($hostname,$user,$password,$database); 
 
 if($conn){
     echo 'conexão efetuada com sucesso';

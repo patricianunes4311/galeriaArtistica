@@ -4,59 +4,38 @@
 }
 
 #title{
-position: absolute;
-width: 316px;
-height: 69px;
-
 font-family: 'Fauna One';
 font-style: normal;
 font-weight: 400px;/*espessura da fonte*/
 font-size: 40px;
 line-height: 49px; /*altura da linha*/
-text-align: center;
+text-align: right;
 color: #ffffff;
 margin-top: 18px;
+letter-spacing:4px;
 
 }
 
-.header{
+.navbar{
  background:#D7B5FF;   
  position: fixed;
  right:0px;    
  left:0px;
-}
+} 
 
-.nav-item{
-   margin-top: 18px; 
-
-
-font-family: 'Kotta One';
-font-style: normal;
-font-weight: 400; /*espessura da fonte:*/
-font-size: 24px;
-line-height: 50px; /*altura da linha*/
-color: #000000;
-}
-
-.nav-item a:hover{ /*deixar a borda flutuante*/
-    font-size: 20px;
-    padding: 0px;
-    border-radius: 4px; /*raio da borda:*/
-    border-top: 1px solid #7b2596; /*Borda em cima */
-    border-bottom: 1px solid #7b2596; /*borda em baixo*/
-    outline: none; /*contorno: nenhum;*/
-    text-decoration:none; /*decoração de texto: nenhuma;*/
-    color: #a588e9;
-}
 #footer{
     background:#D7B5FF;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     text-align: center;
 }
 
 #vangogh{
     color:rgb(75, 29, 77);
     background-color: #c491ff;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 #Tarsila{
     color:rgb(75, 29, 77);
@@ -79,14 +58,8 @@ color: #000000;
     margin-top:4px;
 }
 
-#h3{
-    font-family: 'Fauna One';
-    background-color: #8630e9; 
-    color: #000;
-}
-
 .row form{
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 #nameAutor-error{
@@ -107,9 +80,15 @@ color: #000000;
 color: #8630e9;
 margin:auto;
 display:block;
-width:500px;
+width:400px;
 border-color:purple;  
 }
+
+.offcanvas-body{
+    background-color: #c491ff;
+}
+
+
 
 /*.main-nav li a:hover{
     font-size: 20px;
