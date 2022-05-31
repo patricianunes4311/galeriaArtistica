@@ -86,3 +86,4 @@ function validURL(str) {
       }
       console.log (checkForm);
   }
+  

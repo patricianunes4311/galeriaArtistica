@@ -2,12 +2,12 @@
 //conexão banco de dados 
 $hostname ='localhost'; //onde está o banco de dados 
 $user = 'root'; //nome 
-$password = 'No8La9De3';
+$password = 'ifsp';
 $database = 'galeriaartistica';
 $connection = mysqli_connect($hostname,$user,$password,$database ); 
 
 if($connection){
-    echo "</br> Conexão efetuada com sucesso";
+    //echo "</br> Conexão efetuada com sucesso";
 
 
       //Realizar a leitura do banco de dados 
@@ -20,16 +20,16 @@ if($connection){
     $index=0;
 
     while($record = mysqli_fetch_row($results)){
-        $obras = new stdClass();
-        $obras  -> id_obra = $record[0];
-        $obras  ->NameAutor = $record[1];
-        $obras ->obra= $record[2];
-        $obras -> descricao = $record[3];    
-        $obras -> urlProductImage = $record[4];     
-        $obras[$index] = $obras;
+        $obra = new stdClass();
+        $obra  -> id_obra = $record[0];
+        $obra  ->nome_Autor = $record[1];
+        $obra ->obra= $record[2];
+        $obra -> descricao = $record[3];    
+        $obra -> urlImage = $record[4];     
+        $obras[$index] = $obra;
         $index = $index + 1;
     }
-    echo json_encode ($products);
+    echo json_encode ($obras);
 }else{
     echo "</br>Conexão não efetuada";
     echo "</br>".mysqli_connect_error(); //simular erro 

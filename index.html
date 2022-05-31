@@ -19,7 +19,7 @@
     <title>Galeria Artística</title>
 </head>
 
-<body>
+<body onload="fetchobras()">
 
     <div class="container-fluid">
         <div class="row header">
@@ -56,23 +56,59 @@
         </div>
     </div>
     <!--Fechamento header-->
+
+
     <div class="row">
-        <h1 id="vangogh" class="text-center">Obra artística de Vicente Van Gogh</h1>
-    </div> <!--fechamento van gogh-->
+        <div class="col-1"></div><!--espaço de 1 colona -->
+        <div class="col-10 row" id="autor1"> <!--ocupando 10 calunas -->
+            <h1 id="vangogh" class="text-center">Obra artística de Vicente Van Gogh</h1>
+            <p>Vincent van Gogh (1853-1890) foi um importante pintor holandês, um dos maiores representantes da pintura
+                pós-impressionista.
+            </p>
+
+        </div>
+
+        <div class="col-1"></div>
+    </div>
+    <!--fechamento van gogh-->
     <div class="row">
-        <h1 id="leonardo" class="text-center">Obra artística de Leonardo da Vince </h1>
-    </div> <!--fechamento leonardo-->
+        <div class="col-1"></div> <!--espaço de 1 colona -->
+        <div class="col-10 row"id="autor2"> <!--ocupando 10 calunas -->
+            <h1 id="leonardo" class="text-center">Obra artística de Leonardo da Vince </h1>
+            <p>Leonardo da Vinci (1452-1519) foi um pintor italiano e um dos maiores gênios de seu tempo. A tela "Mona
+                Lisa", verdadeira obra-prima, o notabilizou como um dos principais pintores da Renascença.
+            </p>
+        </div>
+    </div>
+    <!--fechamento leonardo-->
     <div class="row">
-        <h1 id="Tarsila"> Obras de Tarsila do Amaral </h1>        
-    </div> <!--fechamento tarsila-->
-    <div class="row">
-        <h1 id="VikMuniz" class="text-center">Obra artística de Vik Muniz</h1>
-    </div> <!--fechamento vick muniz-->
+        <div class="col-1"></div><!--espaço de 1 colona -->
+        <div class="col-10 row" id="autor3"><!--ocupando 10 calunas -->
+            <h1 id="Tarsila"> Obras de Tarsila do Amaral </h1>
+            <p>Tarsila do Amaral (1886-1973) foi uma pintora e desenhista brasileira. O quadro "Abaporu" pintado em
+                1928
+                é
+                sua obra mais conhecida. Junto com os escritores Oswald de Andrade e Raul Bopp, lançou o movimento
+                "Antropofágico", que foi o mais radical de todos os movimentos do período Modernista.
+            </p>
+        </div>
+    </div>
+    <!--fechamento tarsila-->
+    <div class="row vick">
+        <div class="col-1"></div> <!--espaço de 1 colona -->
+        <div class="col-10 row" id="autor4"> <!--ocupando 10 calunas -->
+            <h1 id="VikMuniz" class="text-center">Obra artística de Vik Muniz</h1>
+            <p>Vik Muniz (1961) é um artista plástico brasileiro, fotógrafo e pintor, é conhecido por usar materiais
+                inusitados em suas obras, como lixo, açúcar e chocolate.
+            </p>
+        </div>
+    </div>
+    <!--fechamento vick muniz-->
     </div>
 
+    <script src="./scripts/fetchscript.js"></script>
 
-
-    <footer id="footer"class="fixarRodape"><b>Desenvolvido por Patrícia Nunes</b></br>
+    <footer id="footer" class="fixarRodape"><b>Desenvolvido por Patrícia Nunes</b></br>
         <img src="./images/licenciamento.png">
     </footer>
 

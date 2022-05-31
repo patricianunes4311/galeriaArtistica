@@ -33,29 +33,36 @@ letter-spacing:4px;
 }
 
 #vangogh{
-    color:rgb(75, 29, 77);
+    color:rgb(255, 255, 255);
     background-color: #c491ff;
     margin-top: 150px;
+    border-radius:4px;
 }
+
 #Tarsila{
-    color:rgb(75, 29, 77);
+    color:rgb(255, 255, 255);
     background-color: #c491ff;    
     text-align: center;
     margin-top:4px;
+    border-radius:4px;
 }
+
 
 #leonardo{
-    color:rgb(75, 29, 77);
+    color:rgb(255, 255, 255);
     background-color: #c491ff;    
     text-align: center;
     margin-top:4px;
+    border-radius:4px;
 }
 
+
 #VikMuniz {
-    color:rgb(75, 29, 77);
+    color:rgb(255, 255, 255);
     background-color: #c491ff;    
     text-align: center;
     margin-top:4px;
+    border-radius:4px;
 }
 
 .row form{
@@ -88,7 +95,16 @@ border-color:purple;
     background-color: #c491ff;
 }
 
+p{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size:20px;
+    background-color: #dec1ff;
+    border-radius: 4px;
+}
 
+.vick{
+    margin-bottom:100px;
+}
 
 /*.main-nav li a:hover{
     font-size: 20px;
