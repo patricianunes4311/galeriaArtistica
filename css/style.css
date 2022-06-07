@@ -141,6 +141,12 @@ input{
 
 #titleform{
     font-family:'Fauna One';
-    color: #ffffff;
-    font-size:50px;
+    color:rgb(255, 255, 255);
+    background-color: #c491ff;    
+    text-align: center;
+    margin-top:4px;
+    border-radius:4px;
+    width:1340px;
+    margin: auto;
+  
 }
