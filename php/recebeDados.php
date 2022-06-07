@@ -11,13 +11,13 @@ $urlImagem = $_GET ['urlImagem'];
 $hostname = 'localhost'; //variável e seus valores 
 $user = 'root';
 $password = 'ifsp';
-$database = 'galeriaartistica';
+$database = 'galeriaArtistica';
 $conn = mysqli_connect($hostname,$user,$password,$database); 
 
 if($conn){
     echo 'conexão efetuada com sucesso';
     //gravar no banco de dados 
-    $query = "insert into  products (nome_autor,titulo,descricao,urlImagem) values ('".$nomeAutor."'," .$titulo. ",'". $descricao."','".$urlImagem."');";
+    $query = "insert into cadastro (nome_autor,titulo,descricao,urlImagem) values ('".$nomeAutor."', '".$titulo."','". $descricao."','".$urlImagem."');";
   echo "<br/>";
   echo $query;
   //realizar leitura do banco de dados   
