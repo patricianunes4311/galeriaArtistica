@@ -2,8 +2,8 @@
 //conexão banco de dados 
 $hostname ='localhost'; //onde está o banco de dados 
 $user = 'root'; //nome 
-$password = '';
-$database = 'galeriaArtistica';
+$password = 'no8la9de3';
+$database ='galeriaArtistica';
 $connection = mysqli_connect($hostname,$user,$password,$database); 
 echo mysqli_connect_error();
 
@@ -13,13 +13,14 @@ if($connection){
 
       //Realizar a leitura do banco de dados 
 
-      $query = "select * from cadastro";
-      $results = mysqli_query($connection,$query);
+      $query ="select * from cadastro";
+      $results=mysqli_query($connection,$query);
   
       //Entregar dados para quem pediu 
     $obras =[];
     $index=0;
-
+   
+    //while = enquanto 
     while($record = mysqli_fetch_row($results)){
         $obra = new stdClass();
         $obra  -> id_obra = $record[0];
