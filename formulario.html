@@ -53,37 +53,39 @@
                 </div>
             </nav>
         </div>
-        <div class="row form">
-            <h2 class="text-center">Formulário para cadastro de obras</h2>
+        <div class="form">
+            <h1 id="titleform"class="text-center">Formulário para cadastro de obras</h1>
             <form action="http://localhost:8000/recebeDados.php" method="get">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="nameAutor" name="nameAutor"
-                        placeholder="Nome autor" /><br>
-                    <div class="alert alert-danger mt-1" id="nameAutor-error" role="alert">
+                <div class="  row mb-3 mt-3">
+                    <input type="text" class="form-control row" id="nameAutor" name="nameAutor" placeholder="Insira o nome do autor"
+                        style="width: 70%;" /><br>
+                    <div class="alert alert-danger mt-1 row" id="nameAutor-error" role="alert">
                         O nome do autor inserido deve ter 1 à 50 caracteres
                     </div>
                 </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="obra" name="obra" placeholder="Título da obra " /><br>
+                <div class=" row mb-3">
+                    <input type="text" class="form-control" id="obra" name="obra" placeholder="Insira o título da obra "
+                        style="width: 70%;" /><br>
                     <div class="alert alert-danger mt-1" id="obra-error" role="alert">
                         O título da obra inserida deve possuir de 1 à 50 caracteres
                     </div>
                 </div>
-                <div class="mb-3">
+                <div class=" row mb-3">
                     <input type="text" class="form-control" id="descricao" name="descricao"
-                        placeholder="Descrição da obra" /><br>
+                        placeholder="Decreva uma descrição para a obra" style="width: 70%;" /><br>
                     <div class="alert alert-danger mt-1 " id="descricao-error" role="alert">
                         Neste campo só deve ser inserido de 1 à 200 caracteres.
                     </div>
                 </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="urlImagem" name="urlProductImagem"
-                        placeholder="Insira um link da obra do autor escolhido" /><br>
+                <div class="row mb-3">
+                    <input type="text" class="form-control" id="urlImagem" name="urlImagem"
+                        placeholder="Insira o link da obra do autor escolhido" style="width: 70%;" /><br>
                     <div class="alert alert-danger mt-1" id="urlImagem-error" role="alert">
                         Neste campo só será permitido links.
                     </div>
                 </div>
-                <button type="submit" id="button" Class="btn btn-outline-primary mb-3" disabled> Cadastrar</button>
+
+                    <button type="submit" id="button" Class="btn btn-outline-primary mb-3" disabled> <b> Cadastrar</b></button>
             </form>
         </div>
     </div>
