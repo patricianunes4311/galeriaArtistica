@@ -7,8 +7,8 @@ const showobras = (obras) => {
         if (obras[i].nome_Autor == 'Van Gogh') {
 
             let tagDivCard = document.createElement('div');
-            tagDivCard.setAttribute('class', 'card max-auto', 'mb-2');
-            tagDivCard.setAttribute('style', 'width:300px');
+            tagDivCard.setAttribute('class', 'card mx-auto mb-1');
+            tagDivCard.setAttribute('style', 'width: 400px');
 
             let tagImagem = document.createElement('img');
             tagImagem.setAttribute('class', 'card-img-top');
@@ -35,9 +35,11 @@ const showobras = (obras) => {
 
             tagP = document.createElement('p');      
             tagP.setAttribute('class', 'card-text text-center');
-            textNode = document.createTextNode(obras[i].descricao);
+            textNode = document.createTextNode(obras[i].descricao);            
             tagP.appendChild(textNode);
             tagDivCard.appendChild(tagP);
+           
+            tagDivCardBody.appendChild(tagP);
 
 
             let autor1 = document.getElementById('autor1');
@@ -54,8 +56,8 @@ const showobras = (obras) => {
         if (obras[i].nome_Autor == 'Leonardo da Vince') {
 
             let tagDivCard = document.createElement('div');
-            tagDivCard.setAttribute('class', 'card max-auto', 'mb-2');
-            tagDivCard.setAttribute('style', 'width:300px');
+            tagDivCard.setAttribute('class', 'card mx-auto mb-1');
+            tagDivCard.setAttribute('style', 'width:400px');
 
             let tagImagem = document.createElement('img');
             tagImagem.setAttribute('class', 'card-img-top');
@@ -84,7 +86,7 @@ const showobras = (obras) => {
             tagP.setAttribute('class', 'card-text text-center');
             textNode = document.createTextNode(obras[i].descricao);
             tagP.appendChild(textNode);
-            tagDivCard.appendChild(tagP);
+            tagDivCardBody.appendChild(tagP);
 
 
             let autor1 = document.getElementById('autor2');
@@ -102,8 +104,8 @@ const showobras = (obras) => {
         if (obras[i].nome_Autor == 'Tarsila do Amaral') {
 
             let tagDivCard = document.createElement('div');
-            tagDivCard.setAttribute('class', 'card max-auto', 'mb-2');
-            tagDivCard.setAttribute('style', 'width:300px');
+            tagDivCard.setAttribute('class', 'card mx-auto mb-1');
+            tagDivCard.setAttribute('style', 'width:400px');
 
             let tagImagem = document.createElement('img');
             tagImagem.setAttribute('class', 'card-img-top');
@@ -131,8 +133,8 @@ const showobras = (obras) => {
             tagP = document.createElement('p');
             tagP.setAttribute('class', 'card-text text-center');
             textNode = document.createTextNode(obras[i].descricao);
-            tagP.appendChild(textNode);
-            tagDivCard.appendChild(tagP);
+            tagP.appendChild(textNode);    
+            tagDivCardBody.appendChild(tagP);
 
 
             let autor1 = document.getElementById('autor3');
@@ -146,11 +148,11 @@ const showobras = (obras) => {
     for (let i = 0; i < obras.length; i++) {   //i ++ imcrementar cada vez mais um 
         console.log(obras[i].cadastro) //valores da variável sempre vão ficar em colchetes 
         console.log(obras[i].urlImage)
-        if (obras[i].nome_Autor == 'vick Muniz') {
+        if (obras[i].nome_Autor == 'Vick Muniz') {
 
             let tagDivCard = document.createElement('div');
-            tagDivCard.setAttribute('class', 'card max-auto', 'mb-2');
-            tagDivCard.setAttribute('style', 'width:300px');
+            tagDivCard.setAttribute('class', 'card mx-auto mb-1');
+            tagDivCard.setAttribute('style', 'width:400px');
 
             let tagImagem = document.createElement('img');
             tagImagem.setAttribute('class', 'card-img-top');
@@ -178,8 +180,8 @@ const showobras = (obras) => {
             tagP = document.createElement('p');
             tagP.setAttribute('class', 'card-text text-center');
             textNode = document.createTextNode(obras[i].descricao);
-            tagP.appendChild(textNode);
-            tagDivCard.appendChild(tagP);
+            tagP.appendChild(textNode);      
+            tagDivCardBody.appendChild(tagP); // filho do corpo do card 
 
 
             let autor1 = document.getElementById('autor4');
