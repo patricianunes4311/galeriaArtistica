@@ -2,7 +2,7 @@
 //conexão banco de dados 
 $hostname ='localhost'; //onde está o banco de dados 
 $user = 'root'; //nome 
-$password = 'ifsp';
+$password = 'no8la9de3';
 $database ='galeriaArtistica';
 
 $connection = mysqli_connect($hostname,$user,$password,$database); 
