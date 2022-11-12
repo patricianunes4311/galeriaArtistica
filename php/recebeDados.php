@@ -10,7 +10,7 @@ $urlImagem = $_GET ['urlImagem'];
 //conectar com o banco de dados 
 $hostname = 'localhost'; //variável e seus valores 
 $user = 'root';
-$password = 'no8la9de3';
+$password = '';
 $database = 'galeriaArtistica';
 $conn = mysqli_connect($hostname,$user,$password,$database); 
 
